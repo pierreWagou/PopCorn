@@ -1,5 +1,6 @@
 import React from 'react'
 import {StyleSheet, View, Text, Image} from 'react-native'
+import { getImageFromApi } from '../API/TMDBAPI'
 
 class FilmItem extends React.Component {
   render() {
@@ -56,6 +57,7 @@ const styles = StyleSheet.create({
     paddingRight: 5,
     fontSize: 20,
     fontWeight: 'bold',
+    color: 'green'
   },
   description: {
     fontStyle: 'italic',
