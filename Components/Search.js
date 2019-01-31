@@ -8,19 +8,37 @@ class Search extends React.Component {
   constructor(props) {
     super(props)
     this.searchedText = ""
-    this.state = {films: []}
+    this.state = {
+      films: [],
+      isLoading: false
+    }
   }
 
   _loadFilms(){
     if(this.searchedText.length>0) {
+      this.setState({ isLoading: true })
       getFilmsFromApiWithSearchedText(this.searchedText).then(data => {
-        this.setState({films: data.results})
+        this.setState({
+          films: data.results
+          isLoading: false
+        })
       })
     }
   }
 
   _searchTextInputChanged(text) {
     this.searchedText = text
+  }
+
+  _displayLoading() {
+    if(this.sate.isLoading) {
+      return(
+        <View style={style.loading_container}>
+          <ActivityIndicator size='large'/>
+          {}
+        </View>
+      )
+    }
   }
 
   render() {
@@ -38,6 +56,7 @@ class Search extends React.Component {
           keyExtractor={(item) => item.id.toString()}
           renderItem={({item}) => <FilmItem film={item}/>}
         />
+        {this._diplayLoading()}
       </View>
     )
   }
@@ -58,6 +77,15 @@ const styles = StyleSheet.create({
   },
   button: {
     height: 50
+  }
+  loading_container: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 100,
+    bottom: 0,
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 })
 
