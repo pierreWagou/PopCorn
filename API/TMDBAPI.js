@@ -6,3 +6,7 @@ export function getFilmsFromApiWithSearchedText(text) {
     .then((response) => response.json())
     .catch((error) => console.error(error))
 }
+
+export function getImageFromApi(name) {
+  return "http://image.tmdb.org/t/p/w300" + name
+}

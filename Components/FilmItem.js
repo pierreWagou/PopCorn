@@ -6,7 +6,7 @@ class FilmItem extends React.Component {
     const film = this.props.film
     return(
       <View style={styles.container}>
-        <Image style={styles.image} source={{uri: "image"}}/>
+        <Image style={styles.image} source={{uri: getImageFromApi(film.poster_path)}}/>
         <View style={styles.content}>
           <View style={styles.header}>
             <Text style={styles.titre}>
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   image: {
-    backgroundColor: 'gray',
     margin: 5,
     flex: 1
   },
