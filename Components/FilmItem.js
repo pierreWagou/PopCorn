@@ -3,6 +3,15 @@ import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native'
 import { getImageFromApi } from '../API/TMDBAPI'
 
 class FilmItem extends React.Component {
+
+  _displayFavoriteImage() {
+    if(this.props.isFilmFavorite) {
+      return(
+        <Image style={styles.favorite_image} source={require('../Images/ic_favorite.png')}/>
+      )
+    }
+  }
+
   render() {
     const {film, displayDetailForFilm} = this.props
     return(
@@ -10,6 +19,7 @@ class FilmItem extends React.Component {
         <Image style={styles.image} source={{uri: getImageFromApi(film.poster_path)}}/>
         <View style={styles.content}>
           <View style={styles.header}>
+            {this._displayFavoriteImage()}
             <Text style={styles.titre}>
               {film.title}
             </Text>
@@ -66,7 +76,13 @@ const styles = StyleSheet.create({
   sortie: {
     textAlign: 'right',
     flex: 1
+  },
+  favorite_image: {
+    width: 25,
+    height: 25,
+    marginRight: 5
   }
+
 })
 
 export default FilmItem
