@@ -15,6 +15,8 @@ class FilmDetail extends React.Component {
   }
 
   componentDidMount() {
+    const action = {type:'TOGGLE_FILMDETAIL', value:this.state.film}
+    this.props.dispatch(action)
     getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
       this.setState({
         film: data,
@@ -153,7 +155,10 @@ const styles = StyleSheet.create({
 })
 
 const mapStateToProps = (state) => {
-  return {favoritesFilm: state.favoritesFilm}
+  return {
+    favoritesFilm: state.favoritesFilm,
+    historicFilm: state.historicFilm
+  }
 }
 
 const mapDispatchToProps = (dispatch) => {
