@@ -1,27 +1,56 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {StyleSheet, View, Text, ActivityIndicator, ScrollView, Image, Button, TouchableOpacity} from 'react-native'
+import {StyleSheet, View, Text, ActivityIndicator, ScrollView, Image, Button, TouchableOpacity, Share, Platform} from 'react-native'
 import {getFilmDetailFromApi, getImageFromApi} from '../API/TMDBAPI'
 import moment from 'moment'
 import numeral from 'numeral'
 
 class FilmDetail extends React.Component {
+
+  static navigationOptions = ({navigation}) => {
+    const {params} = navigation.state
+    if(params.film!=undefined && Platform.OS=='ios') {
+      return {
+        headerRight:
+          <TouchableOpacity style={styles.share_touchable_headerrightbutton} onPress={() => params.shareFilm()}>
+            <Image style={styles.share_image} source={require('../Images/ic_share.png')}/>
+          </TouchableOpacity>
+      }
+    }
+  }
+
   constructor(props) {
     super(props)
     this.state = {
       film: undefined,
       isLoading: true
     }
+    this._shareFilm = this._shareFilm.bind(this)
+  }
+
+  _updateNavigationParams() {
+    this.props.navigation.setParams({
+      shareFilm: this._shareFilm,
+      film: this.state.film
+    })
   }
 
   componentDidMount() {
-    const action = {type:'TOGGLE_FILMDETAIL', value:this.state.film}
-    this.props.dispatch(action)
+    // const action = {type:'TOGGLE_FILMDETAIL', value:this.state.film}
+    // this.props.dispatch(action)
+    const favoriteFilmIndex = this.props.favoritesFilm.findIndex(item => item.id==this.props.navigation.state.params.idFilm)
+    if(favoriteFilmIndex!=-1) {
+      this.setState({
+        film: this.props.favoritesFilm[favoriteFilmIndex]
+      })
+      return
+    }
+    this.setState({isLoading: true})
     getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
       this.setState({
         film: data,
         isLoading: false
-      })
+      }, () => {this._updateNavigationParams()})
     })
   }
 
@@ -92,6 +121,22 @@ class FilmDetail extends React.Component {
     }
   }
 
+  _shareFilm() {
+    const {film} = this.state
+    Share.share({title: film.title, message: film.overview})
+  }
+
+  _displayFloatingActionButton() {
+    const {film} = this.state
+    if(film!=undefined && Platform.OS=='android') {
+      return(
+        <TouchableOpacity style={styles.share_touchable_floatingbutton} onPress={() => this._share()}>
+          <Image style={styles.share_image} source={require('../Images/ic_share.png')}/>
+        </TouchableOpacity>
+      )
+    }
+  }
+
   render() {
     return(
       <View style={styles.container}>
@@ -151,18 +196,31 @@ const styles = StyleSheet.create({
   favorite_image: {
     width: 40,
     height: 40
+  },
+  share_touchable_floatingbutton: {
+    position: 'absolute',
+    width: 60,
+    height: 60,
+    right: 30,
+    bottom: 30,
+    backgroundColor: '#e91e63',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  share_touchable_headerrightbutton: {
+    marginRight: 8
+  },
+  share_image: {
+    width: 30,
+    height: 30
   }
 })
 
 const mapStateToProps = (state) => {
   return {
     favoritesFilm: state.favoritesFilm,
-    historicFilm: state.historicFilm
+    // historicFilm: state.historicFilm
   }
 }
 
-const mapDispatchToProps = (dispatch) => {
-  return {dispatch: (action) => {dispatch(action)}}
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(FilmDetail)
+export default connect(mapStateToProps)(FilmDetail)

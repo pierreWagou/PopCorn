@@ -1,5 +1,5 @@
 import {createStore} from 'redux'
 import toggleFavorite from './Reducers/favoriteReducer'
-import manageHistoric from './Reducers/historicReducer'
+// import manageHistoric from './Reducers/historicReducer'
 
-export default createStore(toggleFavorite, manageHistoric)
+export default createStore(toggleFavorite)
