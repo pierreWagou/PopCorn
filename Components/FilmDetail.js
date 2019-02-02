@@ -1,9 +1,11 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import {StyleSheet, View, Text, ActivityIndicator, ScrollView, Image, Button, TouchableOpacity, Share, Platform} from 'react-native'
-import {getFilmDetailFromApi, getImageFromApi} from '../API/TMDBAPI'
+import {connect} from 'react-redux'
 import moment from 'moment'
 import numeral from 'numeral'
+import {getFilmDetailFromApi, getImageFromApi} from '../API/TMDBAPI'
+import EnlargeShrink from '../Animations/EnlargeShrink'
+
 
 class FilmDetail extends React.Component {
 
@@ -71,11 +73,15 @@ class FilmDetail extends React.Component {
 
   _displayFavoriteImage() {
     let sourceImage = require('../Images/ic_favorite_border.png')
+    let shouldEnlarge = false
     if(this.props.favoritesFilm.findIndex(item => item.id==this.state.film.id)!=-1) {
       sourceImage = require('../Images/ic_favorite.png')
+      shouldEnlarge = true
     }
     return(
-      <Image style={styles.favorite_image} source={sourceImage}/>
+      <EnlargeShrink shouldEnlarge={shouldEnlarge}>
+        <Image style={styles.favorite_image} source={sourceImage}/>
+      </EnlargeShrink>
     )
   }
 
@@ -194,8 +200,9 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   favorite_image: {
-    width: 40,
-    height: 40
+    flex: 1,
+    width: null,
+    height: null
   },
   share_touchable_floatingbutton: {
     position: 'absolute',
