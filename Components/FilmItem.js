@@ -11,7 +11,7 @@ class FilmItem extends React.Component {
         <Image style={styles.favorite_image} source={require('../Images/ic_favorite.png')}/>
       )
     }
-  }
+}
 
   render() {
     const {film, displayDetailForFilm} = this.props
