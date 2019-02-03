@@ -1,6 +1,6 @@
 import React from 'react'
 import {StyleSheet, View, Text, Image, TouchableOpacity} from 'react-native'
-import { getImageFromApi } from '../API/TMDBAPI'
+import {getImageFromApi} from '../API/TMDBAPI'
 import FadeIn from '../Animations/FadeIn'
 
 class FilmItem extends React.Component {

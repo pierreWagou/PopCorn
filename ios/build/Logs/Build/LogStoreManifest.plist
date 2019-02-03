@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>5F516BDB-D8DB-4B71-B811-D4475AC103A8</key>
+		<key>7286A445-D4B9-4DC9-A5EA-8549B885ECFE</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5F516BDB-D8DB-4B71-B811-D4475AC103A8.xcactivitylog</string>
+			<string>7286A445-D4B9-4DC9-A5EA-8549B885ECFE.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,13 @@
 			<key>signature</key>
 			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>570907788.66863203</real>
+			<real>570917496.98324203</real>
 			<key>timeStoppedRecording</key>
-			<real>570907790.14077199</real>
+			<real>570917498.46462798</real>
 			<key>title</key>
 			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>5F516BDB-D8DB-4B71-B811-D4475AC103A8</string>
+			<string>7286A445-D4B9-4DC9-A5EA-8549B885ECFE</string>
 		</dict>
 	</dict>
 </dict>
