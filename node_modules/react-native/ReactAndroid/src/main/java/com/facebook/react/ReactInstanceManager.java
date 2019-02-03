@@ -80,6 +80,7 @@ import com.facebook.react.modules.debug.interfaces.DeveloperSettings;
 import com.facebook.react.modules.fabric.ReactFabric;
 import com.facebook.react.packagerconnection.RequestHandler;
 import com.facebook.react.uimanager.DisplayMetricsHolder;
+import com.facebook.react.uimanager.UIImplementationProvider;
 import com.facebook.react.uimanager.UIManagerHelper;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.views.imagehelper.ResourceDrawableIdHelper;
@@ -199,6 +200,7 @@ public class ReactInstanceManager {
     boolean useDeveloperSupport,
     @Nullable NotThreadSafeBridgeIdleDebugListener bridgeIdleDebugListener,
     LifecycleState initialLifecycleState,
+    @Nullable UIImplementationProvider mUIImplementationProvider,
     NativeModuleCallExceptionHandler nativeModuleCallExceptionHandler,
     @Nullable RedBoxHandler redBoxHandler,
     boolean lazyViewManagersEnabled,
@@ -246,6 +248,7 @@ public class ReactInstanceManager {
                   ReactInstanceManager.this.invokeDefaultOnBackPressed();
                 }
               },
+              mUIImplementationProvider,
               lazyViewManagersEnabled,
               minTimeLeftInFrameForNonBatchedOperationMs));
       if (mUseDeveloperSupport) {
@@ -717,7 +720,7 @@ public class ReactInstanceManager {
     // automatically when creation completes, as root view is part of the attached root view list.
     ReactContext currentContext = getCurrentReactContext();
     if (mCreateReactContextThread == null && currentContext != null) {
-      attachRootViewToInstance(rootView, currentContext.getCatalystInstance());
+      attachRootViewToInstance(rootView);
     }
   }
 
@@ -968,7 +971,7 @@ public class ReactInstanceManager {
     ReactMarker.logMarker(ATTACH_MEASURED_ROOT_VIEWS_START);
     synchronized (mAttachedRootViews) {
       for (ReactRootView rootView : mAttachedRootViews) {
-        attachRootViewToInstance(rootView, catalystInstance);
+        attachRootViewToInstance(rootView);
       }
     }
     ReactMarker.logMarker(ATTACH_MEASURED_ROOT_VIEWS_END);
@@ -1006,8 +1009,7 @@ public class ReactInstanceManager {
   }
 
   private void attachRootViewToInstance(
-      final ReactRootView rootView,
-      CatalystInstance catalystInstance) {
+      final ReactRootView rootView) {
     Log.d(ReactConstants.TAG, "ReactInstanceManager.attachRootViewToInstance()");
     Systrace.beginSection(TRACE_TAG_REACT_JAVA_BRIDGE, "attachRootViewToInstance");
     UIManager uiManagerModule = UIManagerHelper.getUIManager(mCurrentReactContext, rootView.getUIManagerType());
