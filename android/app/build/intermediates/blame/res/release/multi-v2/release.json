@@ -495,65 +495,16 @@
             ]
         },
         {
-            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-es-rUS_values-es-rUS.arsc.flat",
+            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-es-rUS/values-es-rUS.xml",
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-night-v8/values-night-v8.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,334,442,527,628,751,836,918,1000,1112,1212,1313,1421,1528,1635,1794,1894",
-                        "endColumns": "119,108,107,84,100,122,84,81,81,111,99,100,107,106,106,158,99,81",
-                        "endOffsets": "220,329,437,522,623,746,831,913,995,1107,1207,1308,1416,1523,1630,1789,1889,1971"
-                    }
-                },
-                {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-es-rUS/values-es-rUS.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1976",
-                        "endColumns": "100",
-                        "endOffsets": "2072"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
-                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
-                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
-                    }
-                },
-                {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-be/values-be.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "108",
-                        "endOffsets": "159"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1974",
-                        "endColumns": "108",
-                        "endOffsets": "2078"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593",
+                        "endColumns": "69,83,83,95,101,101,93",
+                        "endOffsets": "120,204,288,384,486,588,682"
                     }
                 }
             ]
@@ -591,16 +542,65 @@
             ]
         },
         {
-            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-night-v8_values-night-v8.arsc.flat",
+            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-be/values-be.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593",
-                        "endColumns": "69,83,83,95,101,101,93",
-                        "endOffsets": "120,204,288,384,486,588,682"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,328,444,530,638,756,835,913,996,1102,1208,1306,1414,1519,1624,1793,1893",
+                        "endColumns": "119,102,115,85,107,117,78,77,82,105,105,97,107,104,104,168,99,80",
+                        "endOffsets": "220,323,439,525,633,751,830,908,991,1097,1203,1301,1409,1514,1619,1788,1888,1969"
+                    }
+                },
+                {
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-be/values-be.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "108",
+                        "endOffsets": "159"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1974",
+                        "endColumns": "108",
+                        "endOffsets": "2078"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-es-rUS_values-es-rUS.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,225,334,442,527,628,751,836,918,1000,1112,1212,1313,1421,1528,1635,1794,1894",
+                        "endColumns": "119,108,107,84,100,122,84,81,81,111,99,100,107,106,106,158,99,81",
+                        "endOffsets": "220,329,437,522,623,746,831,913,995,1107,1207,1308,1416,1523,1630,1789,1889,1971"
+                    }
+                },
+                {
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-es-rUS/values-es-rUS.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1976",
+                        "endColumns": "100",
+                        "endOffsets": "2072"
                     }
                 }
             ]
@@ -1083,38 +1083,6 @@
             ]
         },
         {
-            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-de_values-de.arsc.flat",
-            "map": [
-                {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1934",
-                        "endColumns": "100",
-                        "endOffsets": "2030"
-                    }
-                },
-                {
-                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-de/values-de.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,1852",
-                        "endColumns": "104,97,111,85,104,114,76,75,81,110,102,98,110,101,106,155,101,81",
-                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,1929"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
@@ -1142,6 +1110,38 @@
                         "startOffsets": "1811",
                         "endColumns": "100",
                         "endOffsets": "1907"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/res/merged/release/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/369fa139301a4988f9b3b0eff1b09028/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1934",
+                        "endColumns": "100",
+                        "endOffsets": "2030"
+                    }
+                },
+                {
+                    "source": "/Users/pierreromon/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/053c811c5a25267112c497debec37089/res/values-de/values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,1852",
+                        "endColumns": "104,97,111,85,104,114,76,75,81,110,102,98,110,101,106,155,101,81",
+                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,1929"
                     }
                 }
             ]

@@ -35,6 +35,35 @@
 			<key>uniqueIdentifier</key>
 			<string>48B929F7-EBE7-4F72-8BA3-468A4690B4B6</string>
 		</dict>
+		<key>A8370A6F-0D03-4E0C-8EC2-AC23B7ECB76A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A8370A6F-0D03-4E0C-8EC2-AC23B7ECB76A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopCorn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopCorn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570987972.77925897</real>
+			<key>timeStoppedRecording</key>
+			<real>570987978.97985697</real>
+			<key>title</key>
+			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>A8370A6F-0D03-4E0C-8EC2-AC23B7ECB76A</string>
+		</dict>
 	</dict>
 </dict>
 </plist>
