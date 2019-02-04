@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Feb 04 10:59:48 CET 2019
+#Mon Feb 04 13:24:59 CET 2019
 17.baseType=DIRECTORY
 4.path=lib/x86/libicu_common.so
 25.base=/Users/pierreromon/Git/PopCorn/android/app/build/intermediates/transforms/mergeJniLibs/release/0
