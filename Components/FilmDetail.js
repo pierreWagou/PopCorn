@@ -25,7 +25,8 @@ class FilmDetail extends React.Component {
     super(props)
     this.state = {
       film: undefined,
-      isLoading: true
+      isLoading: false
+      
     }
     this._shareFilm = this._shareFilm.bind(this)
   }
@@ -38,8 +39,8 @@ class FilmDetail extends React.Component {
   }
 
   componentDidMount() {
-    // const action = {type:'TOGGLE_FILMDETAIL', value:this.state.film}
-    // this.props.dispatch(action)
+    const action = {type: "TEST", value: this.state.film}
+    this.props.dispatch(action)
     const favoriteFilmIndex = this.props.favoritesFilm.findIndex(item => item.id==this.props.navigation.state.params.idFilm)
     if(favoriteFilmIndex!=-1) {
       this.setState({
@@ -226,7 +227,7 @@ const styles = StyleSheet.create({
 const mapStateToProps = (state) => {
   return {
     favoritesFilm: state.toggleFavorite.favoritesFilm,
-    // historicFilm: state.historicFilm
+    historicFilm: state.historicFilm
   }
 }
 
