@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		lSNR7+903z9HZPnink6g/WQGf0Q=
+		e3RQ/645hx2wtiZX3VS1Cuf8nSY=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
@@ -51,7 +51,7 @@
 		</data>
 		<key>PlugIns/PopCornTests.xctest.dSYM/Contents/Resources/DWARF/PopCornTests</key>
 		<data>
-		X4H1fhwhB+7CAE+SK0EYbcYcd+M=
+		XppLp3KH0HjowduIOvJ+6yMjU4U=
 		</data>
 		<key>PlugIns/PopCornTests.xctest/Info.plist</key>
 		<data>
@@ -59,7 +59,7 @@
 		</data>
 		<key>PlugIns/PopCornTests.xctest/PopCornTests</key>
 		<data>
-		gAYi48zDetI6B1zs0v2uTlnDXD4=
+		7drlEY+d20m3a2r4z5JNAmkHvEc=
 		</data>
 		<key>PlugIns/PopCornTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -72,11 +72,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lSNR7+903z9HZPnink6g/WQGf0Q=
+			e3RQ/645hx2wtiZX3VS1Cuf8nSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7AsiOrENUzkq1RIcBMQk1YB5FoK7xN/U/CEr62cR3us=
+			nnPHVLVyL6v8L1cbgL7az3rrUMNBbtuIN93IUNqRI0U=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X4H1fhwhB+7CAE+SK0EYbcYcd+M=
+			XppLp3KH0HjowduIOvJ+6yMjU4U=
 			</data>
 			<key>hash2</key>
 			<data>
-			YjPFxJIBDXCO1Nlvr2fw6wR+ayf6e9olO8I1/UKhMsU=
+			CXX5T52+X+45/2/bPOXTUFMU3EBm6e78plbvGXhSBOU=
 			</data>
 		</dict>
 		<key>PlugIns/PopCornTests.xctest/Info.plist</key>
@@ -184,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gAYi48zDetI6B1zs0v2uTlnDXD4=
+			7drlEY+d20m3a2r4z5JNAmkHvEc=
 			</data>
 			<key>hash2</key>
 			<data>
-			JaHmO4s5+r0gNIPj3uCUJJg3vQULx0HIKHE9R77X0tE=
+			GyZs7jeVfzpJRNGEz1kivTMqvKTX/ulSpdn/Zv1xneM=
 			</data>
 		</dict>
 		<key>PlugIns/PopCornTests.xctest/_CodeSignature/CodeResources</key>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>5576774C-A228-4F59-9ECE-C917A199DDFE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5576774C-A228-4F59-9ECE-C917A199DDFE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>PopCorn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>PopCorn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>570927597.84377897</real>
+			<key>timeStoppedRecording</key>
+			<real>570927599.06108999</real>
+			<key>title</key>
+			<string>Building project PopCorn with scheme PopCorn and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>5576774C-A228-4F59-9ECE-C917A199DDFE</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
