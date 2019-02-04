@@ -6,6 +6,12 @@ import Avatar from './Avatar'
 
 
 class Favorites extends React.Component {
+
+constructor(props) {
+  super(props)
+  this.state = {isLoading: false}
+}
+
   render() {
     console.log(this.props.favoritesFilm)
     return(
