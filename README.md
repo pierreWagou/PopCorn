@@ -1,5 +1,7 @@
 # PopCorn
 
+Mobile application using an API to extract films from a database (React Native)
+
 ## On physical device
 ### Android
 Available in the Play Store. Search for "Wagou" (Pierre Romon as developper)
