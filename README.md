@@ -14,6 +14,13 @@ Computer under Mac OS with XCode is required. Open the PopCorn.xcodeproj file in
 Android studio is required. Create an AVD (Abdroid Virtual Device) under Android 9.0 with Android Studio. Launch the AVD emulator.
 At the root of the project, run
 ```cpp
+npm install
+react-native link
+react-native run-android
+```
+```cpp
+yarn install
+react-native link
 react-native run-android
 ```
 
@@ -21,5 +28,12 @@ react-native run-android
 Computer under Mac OS with Xcode is required.
 At the root of the project, run
 ```cpp
+npm install
+react-native link
+react-native run-ios
+```
+```cpp
+yarn install
+react-native link
 react-native run-ios
 ```
