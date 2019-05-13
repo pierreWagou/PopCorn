@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f03d8c3-6ce2-414b-b59d-65a954716743" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/PopCorn.xcodeproj/project.xcworkspace/xcuserdata/pierreromon.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/PopCorn.xcodeproj/project.xcworkspace/xcuserdata/pierreromon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/PopCorn.build/Debug-iphonesimulator/PopCorn.build/assetcatalog_dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/PopCorn.build/Debug-iphonesimulator/PopCorn.build/assetcatalog_dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/PopCorn.build/Debug-iphonesimulator/PopCorn.build/assetcatalog_generated_info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/PopCorn.build/Debug-iphonesimulator/PopCorn.build/assetcatalog_generated_info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-346102532985ae1656480199124a214a" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/BuildDescriptionCacheIndex-346102532985ae1656480199124a214a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/ae1c8bf3e626e5768835eba7ab1ee340-desc.xcbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/ae1c8bf3e626e5768835eba7ab1ee340-manifest.xcbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/build.db" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Intermediates.noindex/XCBuildData/build.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/PopCornTests" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/PopCornTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PlugIns/PopCornTests.xctest/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PopCorn" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/PopCorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/_CodeSignature/CodeResources" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Build/Products/Debug-iphonesimulator/PopCorn.app/_CodeSignature/CodeResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Logs/Build/48B929F7-EBE7-4F72-8BA3-468A4690B4B6.xcactivitylog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/Logs/Build/LogStoreManifest.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/Logs/Build/LogStoreManifest.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/ModuleCache.noindex/Session.modulevalidation" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/ModuleCache.noindex/Session.modulevalidation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ios/build/info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/build/info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/react-native/React/React.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../node_modules/react-native/React/React.xcodeproj/xcuserdata/pierreromon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,14 +41,14 @@
     <session id="-112224428">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,11 +71,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="61" />
-    <option name="width" value="1400" />
-    <option name="height" value="743" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,7 +83,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -86,7 +95,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -120,10 +129,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="61" width="1400" height="743" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.39175257" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.397711" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -133,8 +142,9 @@
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" visible="true" weight="0.32771084" />
       <window_info active="true" anchor="bottom" id="Build" order="4" visible="true" weight="0.32872504" />
+      <window_info anchor="right" id="Assistant" visible="true" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
