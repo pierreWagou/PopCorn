@@ -4,7 +4,8 @@ Mobile application using an API to extract films from a database (React Native)
 
 ## On physical device
 ### Android
-Available in the Play Store. Search for "Wagou" (Pierre Romon as developper)
+Available in the Play Store.
+https://play.google.com/store/apps/details?id=com.cailloux.popcorn
 
 ### IOS
 Computer under Mac OS with XCode is required. Open the PopCorn.xcodeproj file in ios folder with Xcode. Connect your phone to your computer with USB. Run the project on your device.
