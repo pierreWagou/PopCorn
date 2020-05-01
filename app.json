@@ -1,4 +1,12 @@
 {
-  "displayName": "PopCorn",
-  "name": "PopCorn"
+  "expo": {
+    "name": "Popcorn",
+    "slug": "Popcorn",
+    "version": "2.0.0",
+    "icon": "./icon.png",
+    "privacy": "public",
+    "ios": {
+      "supportsTablet": true
+    }
+  }
 }
