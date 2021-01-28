@@ -5,11 +5,11 @@
     "ios": "react-native run-ios"
   },
   "dependencies": {
-    "expo": "^37.0.0",
+    "expo": "^1.0.0",
     "moment": "^2.24.0",
     "numeral": "^2.0.6",
-    "react": "^16.11.0",
-    "react-native": "^0.62.2",
+    "react": "16.13.1",
+    "react-native": "^0.63.4",
     "react-native-gesture-handler": "~1.6.0",
     "react-native-image-picker": "^2.3.1",
     "react-native-screens": "^2.7.0",
